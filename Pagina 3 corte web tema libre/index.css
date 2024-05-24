@@ -1,0 +1,103 @@
+
+.logo{
+    color: brown;
+}
+
+.section1{
+    justify-content: center;
+}
+
+header{
+    background-color: rgba(156, 142, 142, 0.24);
+    font-size: 25px;
+    border-radius: 22px;
+}
+
+.parrafo-inicio{
+    text-align: center;
+    color: rgb(17, 28, 38);
+    font-size: 35px;
+    border-radius: 50px;
+}
+
+.red{
+    color: brown;
+}
+
+.bienvenidos{
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+}
+
+.carta{
+    font-size: 50px;  
+}
+
+.rodar{
+    color: crimson;
+
+}
+
+.sport{
+    color:cyan;
+}
+
+body{
+  
+    font-family:'Times New Roman', Times, serif;
+    background-image: url(gradient_7680x4320_8r7he.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+main{
+    background-color: rgba(225, 225, 243, 0.607);
+    border-radius: 25px;
+    padding: 30px;
+    margin: 30px;
+}
+
+nav{
+    justify-content: space-around;
+    padding: 40px;
+    text-align: end;
+    display: flex;
+   
+}
+
+nav a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.section2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bike, .mtb, .ruta, .items{
+    border-style: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: start;
+    background-color:rgba(151, 198, 206, 0.932);
+    transition: transform 0.5s ease;
+}
+
+.bike:hover, .mtb:hover, .ruta:hover, .items:hover {
+    transform: translateY(-15px);
+}
+
+.exploremos{
+    font-size: 60px;
+    color: snow;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+
